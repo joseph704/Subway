@@ -3,10 +3,17 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2312AB7A22AC22A900B70346 /* Hospital.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2312AB7922AC22A900B70346 /* Hospital.swift */; };
+		231C117C22A41FFD0024588B /* TimeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231C117B22A41FFD0024588B /* TimeTableViewController.swift */; };
+		231C117E22A421380024588B /* IMG_7201.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 231C117D22A421380024588B /* IMG_7201.jpg */; };
+		231C118622A435D10024588B /* IMG_B8436465A33E-1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 231C118522A435D10024588B /* IMG_B8436465A33E-1.jpeg */; };
+		231C118822A437120024588B /* KakaoTalk_Photo_2019-06-03-01-55-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 231C118722A437120024588B /* KakaoTalk_Photo_2019-06-03-01-55-32.png */; };
+		231C118A22A43A1B0024588B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 231C118922A43A1B0024588B /* GoogleService-Info.plist */; };
+		231C118C22A43BBA0024588B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231C118B22A43BBA0024588B /* LoginViewController.swift */; };
 		233F64F922A1659D003DF079 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233F64F822A1659D003DF079 /* AppDelegate.swift */; };
 		233F64FB22A1659D003DF079 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233F64FA22A1659D003DF079 /* MasterViewController.swift */; };
 		233F64FD22A1659D003DF079 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233F64FC22A1659D003DF079 /* DetailViewController.swift */; };
@@ -15,6 +22,27 @@
 		233F650522A1659D003DF079 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 233F650322A1659D003DF079 /* LaunchScreen.storyboard */; };
 		233F651022A1659D003DF079 /* bangsephTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233F650F22A1659D003DF079 /* bangsephTests.swift */; };
 		233F651B22A1659D003DF079 /* bangsephUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233F651A22A1659D003DF079 /* bangsephUITests.swift */; };
+		233F652922A166A9003DF079 /* SearchFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233F652822A166A9003DF079 /* SearchFooter.swift */; };
+		233F652B22A16E70003DF079 /* Candy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233F652A22A16E70003DF079 /* Candy.swift */; };
+		234368C122AA56FA000F98E5 /* 서울시 역코드로 지하철역 위치 조회.json in Resources */ = {isa = PBXBuildFile; fileRef = 234368C022AA56FA000F98E5 /* 서울시 역코드로 지하철역 위치 조회.json */; };
+		236457FF22B74183008CAD73 /* 런치스크린.png in Resources */ = {isa = PBXBuildFile; fileRef = 236457FD22B74183008CAD73 /* 런치스크린.png */; };
+		2364580022B74183008CAD73 /* 스크린샷 2019-06-17 오전 11.59.24.png in Resources */ = {isa = PBXBuildFile; fileRef = 236457FE22B74183008CAD73 /* 스크린샷 2019-06-17 오전 11.59.24.png */; };
+		2364580222B7434C008CAD73 /* ding.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2364580122B7434C008CAD73 /* ding.mp3 */; };
+		23B8F38D22B69B0F0067650F /* UpTimeTabelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B8F38C22B69B0F0067650F /* UpTimeTabelViewController.swift */; };
+		23B8F38F22B69B1F0067650F /* DownTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B8F38E22B69B1F0067650F /* DownTableViewController.swift */; };
+		23B8F39522B6A6590067650F /* StardustView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B8F39022B6A6580067650F /* StardustView.swift */; };
+		23B8F39722B6A6590067650F /* AudioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B8F39222B6A6580067650F /* AudioController.swift */; };
+		23B8F39822B6A6590067650F /* ExplodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B8F39322B6A6580067650F /* ExplodeView.swift */; };
+		23B8F39922B6A6590067650F /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B8F39422B6A6580067650F /* Config.swift */; };
+		23B8F3A122B6A6A00067650F /* wrong.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 23B8F39E22B6A6A00067650F /* wrong.m4a */; };
+		23B8F3A322B6A6A00067650F /* win.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 23B8F3A022B6A6A00067650F /* win.mp3 */; };
+		23B8F3A522B6A6A60067650F /* Comic_Andy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 23B8F3A422B6A6A60067650F /* Comic_Andy.ttf */; };
+		23B8F3A722B6A6AB0067650F /* particle.png in Resources */ = {isa = PBXBuildFile; fileRef = 23B8F3A622B6A6AB0067650F /* particle.png */; };
+		23B8F3A922B6AFA80067650F /* KakaoTalk_Photo_2019-06-17-02-10-08.png in Resources */ = {isa = PBXBuildFile; fileRef = 23B8F3A822B6AFA70067650F /* KakaoTalk_Photo_2019-06-17-02-10-08.png */; };
+		23B8F3AB22B6B15B0067650F /* KakaoTalk_Photo_2019-06-17-02-17-26.png in Resources */ = {isa = PBXBuildFile; fileRef = 23B8F3AA22B6B15B0067650F /* KakaoTalk_Photo_2019-06-17-02-17-26.png */; };
+		3321A8736A662228B44D8A41 /* Pods_bangsephUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C77E16F62D8736345F46BF3 /* Pods_bangsephUITests.framework */; };
+		ACAE088D29289851F8693C74 /* Pods_bangsephTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEDAFEEA3E2FA2C6762CFF2C /* Pods_bangsephTests.framework */; };
+		E2C57AA91675EBEC2615F723 /* Pods_bangseph.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BD22437BFD7761D1F98DB22 /* Pods_bangseph.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +63,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2312AB7922AC22A900B70346 /* Hospital.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Hospital.swift; path = ../../Hospital.swift; sourceTree = "<group>"; };
+		231C117B22A41FFD0024588B /* TimeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTableViewController.swift; sourceTree = "<group>"; };
+		231C117D22A421380024588B /* IMG_7201.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_7201.jpg; path = ../../../Downloads/IMG_7201.jpg; sourceTree = "<group>"; };
+		231C118522A435D10024588B /* IMG_B8436465A33E-1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "IMG_B8436465A33E-1.jpeg"; path = "../../../Downloads/IMG_B8436465A33E-1.jpeg"; sourceTree = "<group>"; };
+		231C118722A437120024588B /* KakaoTalk_Photo_2019-06-03-01-55-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "KakaoTalk_Photo_2019-06-03-01-55-32.png"; path = "../../../Downloads/KakaoTalk_Photo_2019-06-03-01-55-32.png"; sourceTree = "<group>"; };
+		231C118922A43A1B0024588B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		231C118B22A43BBA0024588B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		233F64F522A1659D003DF079 /* bangseph.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bangseph.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		233F64F822A1659D003DF079 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		233F64FA22A1659D003DF079 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +84,33 @@
 		233F651622A1659D003DF079 /* bangsephUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bangsephUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		233F651A22A1659D003DF079 /* bangsephUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bangsephUITests.swift; sourceTree = "<group>"; };
 		233F651C22A1659D003DF079 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		233F652822A166A9003DF079 /* SearchFooter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchFooter.swift; path = ../../../Downloads/CandySearch_4_Starter/CandySearch/SearchFooter.swift; sourceTree = "<group>"; };
+		233F652A22A16E70003DF079 /* Candy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Candy.swift; path = ../../../Downloads/CandySearch_4_Starter/CandySearch/Candy.swift; sourceTree = "<group>"; };
+		234368C022AA56FA000F98E5 /* 서울시 역코드로 지하철역 위치 조회.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "서울시 역코드로 지하철역 위치 조회.json"; path = "../../서울시 역코드로 지하철역 위치 조회.json"; sourceTree = "<group>"; };
+		236457FD22B74183008CAD73 /* 런치스크린.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "런치스크린.png"; sourceTree = "<group>"; };
+		236457FE22B74183008CAD73 /* 스크린샷 2019-06-17 오전 11.59.24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "스크린샷 2019-06-17 오전 11.59.24.png"; sourceTree = "<group>"; };
+		2364580122B7434C008CAD73 /* ding.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = ding.mp3; path = ../../../../../Downloads/ding.mp3; sourceTree = "<group>"; };
+		23B8F38C22B69B0F0067650F /* UpTimeTabelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpTimeTabelViewController.swift; sourceTree = "<group>"; };
+		23B8F38E22B69B1F0067650F /* DownTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownTableViewController.swift; sourceTree = "<group>"; };
+		23B8F39022B6A6580067650F /* StardustView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StardustView.swift; sourceTree = "<group>"; };
+		23B8F39222B6A6580067650F /* AudioController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioController.swift; sourceTree = "<group>"; };
+		23B8F39322B6A6580067650F /* ExplodeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExplodeView.swift; sourceTree = "<group>"; };
+		23B8F39422B6A6580067650F /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		23B8F39E22B6A6A00067650F /* wrong.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = wrong.m4a; path = bangseph/Assets1/Audio/wrong.m4a; sourceTree = SOURCE_ROOT; };
+		23B8F3A022B6A6A00067650F /* win.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = win.mp3; path = bangseph/Assets1/Audio/win.mp3; sourceTree = SOURCE_ROOT; };
+		23B8F3A422B6A6A60067650F /* Comic_Andy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Comic_Andy.ttf; path = bangseph/Assets1/Font/Comic_Andy.ttf; sourceTree = SOURCE_ROOT; };
+		23B8F3A622B6A6AB0067650F /* particle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = particle.png; path = bangseph/Assets1/Particles/particle.png; sourceTree = SOURCE_ROOT; };
+		23B8F3A822B6AFA70067650F /* KakaoTalk_Photo_2019-06-17-02-10-08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KakaoTalk_Photo_2019-06-17-02-10-08.png"; sourceTree = "<group>"; };
+		23B8F3AA22B6B15B0067650F /* KakaoTalk_Photo_2019-06-17-02-17-26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KakaoTalk_Photo_2019-06-17-02-17-26.png"; sourceTree = "<group>"; };
+		247B87CDC7C363F3638630A8 /* Pods-bangsephUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bangsephUITests.release.xcconfig"; path = "Target Support Files/Pods-bangsephUITests/Pods-bangsephUITests.release.xcconfig"; sourceTree = "<group>"; };
+		26815E1392F81BACB8A89E0D /* Pods-bangseph.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bangseph.debug.xcconfig"; path = "Target Support Files/Pods-bangseph/Pods-bangseph.debug.xcconfig"; sourceTree = "<group>"; };
+		3042C6CB1CA5A77C1F504AD6 /* Pods-bangsephTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bangsephTests.release.xcconfig"; path = "Target Support Files/Pods-bangsephTests/Pods-bangsephTests.release.xcconfig"; sourceTree = "<group>"; };
+		8BD22437BFD7761D1F98DB22 /* Pods_bangseph.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bangseph.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C77E16F62D8736345F46BF3 /* Pods_bangsephUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bangsephUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABB2ECDED5CB30242D282CAC /* Pods-bangseph.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bangseph.release.xcconfig"; path = "Target Support Files/Pods-bangseph/Pods-bangseph.release.xcconfig"; sourceTree = "<group>"; };
+		B22F49F919FC7891E707004E /* Pods-bangsephUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bangsephUITests.debug.xcconfig"; path = "Target Support Files/Pods-bangsephUITests/Pods-bangsephUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EEDAFEEA3E2FA2C6762CFF2C /* Pods_bangsephTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bangsephTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8272CB8B9B2C2228A0075D2 /* Pods-bangsephTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bangsephTests.debug.xcconfig"; path = "Target Support Files/Pods-bangsephTests/Pods-bangsephTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2C57AA91675EBEC2615F723 /* Pods_bangseph.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +126,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACAE088D29289851F8693C74 /* Pods_bangsephTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +134,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3321A8736A662228B44D8A41 /* Pods_bangsephUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +148,8 @@
 				233F650E22A1659D003DF079 /* bangsephTests */,
 				233F651922A1659D003DF079 /* bangsephUITests */,
 				233F64F622A1659D003DF079 /* Products */,
+				5DD9D7FBCA6CA37281F6C711 /* Pods */,
+				C0F776CF84B89419EFB201A8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +166,34 @@
 		233F64F722A1659D003DF079 /* bangseph */ = {
 			isa = PBXGroup;
 			children = (
+				23B8F39A22B6A6620067650F /* Assets */,
 				233F64F822A1659D003DF079 /* AppDelegate.swift */,
 				233F64FA22A1659D003DF079 /* MasterViewController.swift */,
 				233F64FC22A1659D003DF079 /* DetailViewController.swift */,
 				233F64FE22A1659D003DF079 /* Main.storyboard */,
+				23B8F3A822B6AFA70067650F /* KakaoTalk_Photo_2019-06-17-02-10-08.png */,
+				23B8F3AA22B6B15B0067650F /* KakaoTalk_Photo_2019-06-17-02-17-26.png */,
+				236457FD22B74183008CAD73 /* 런치스크린.png */,
+				236457FE22B74183008CAD73 /* 스크린샷 2019-06-17 오전 11.59.24.png */,
+				233F652822A166A9003DF079 /* SearchFooter.swift */,
+				233F652A22A16E70003DF079 /* Candy.swift */,
+				2312AB7922AC22A900B70346 /* Hospital.swift */,
 				233F650122A1659D003DF079 /* Assets.xcassets */,
+				231C117D22A421380024588B /* IMG_7201.jpg */,
 				233F650322A1659D003DF079 /* LaunchScreen.storyboard */,
+				234368C022AA56FA000F98E5 /* 서울시 역코드로 지하철역 위치 조회.json */,
 				233F650622A1659D003DF079 /* Info.plist */,
+				231C118922A43A1B0024588B /* GoogleService-Info.plist */,
+				231C118722A437120024588B /* KakaoTalk_Photo_2019-06-03-01-55-32.png */,
+				231C117B22A41FFD0024588B /* TimeTableViewController.swift */,
+				231C118522A435D10024588B /* IMG_B8436465A33E-1.jpeg */,
+				231C118B22A43BBA0024588B /* LoginViewController.swift */,
+				23B8F38C22B69B0F0067650F /* UpTimeTabelViewController.swift */,
+				23B8F38E22B69B1F0067650F /* DownTableViewController.swift */,
+				23B8F39222B6A6580067650F /* AudioController.swift */,
+				23B8F39422B6A6580067650F /* Config.swift */,
+				23B8F39322B6A6580067650F /* ExplodeView.swift */,
+				23B8F39022B6A6580067650F /* StardustView.swift */,
 			);
 			path = bangseph;
 			sourceTree = "<group>";
@@ -128,6 +216,65 @@
 			path = bangsephUITests;
 			sourceTree = "<group>";
 		};
+		23B8F39A22B6A6620067650F /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				23B8F39D22B6A6880067650F /* Particles */,
+				23B8F39C22B6A6810067650F /* Font */,
+				23B8F39B22B6A67B0067650F /* Audio */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		23B8F39B22B6A67B0067650F /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				2364580122B7434C008CAD73 /* ding.mp3 */,
+				23B8F3A022B6A6A00067650F /* win.mp3 */,
+				23B8F39E22B6A6A00067650F /* wrong.m4a */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		23B8F39C22B6A6810067650F /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				23B8F3A422B6A6A60067650F /* Comic_Andy.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		23B8F39D22B6A6880067650F /* Particles */ = {
+			isa = PBXGroup;
+			children = (
+				23B8F3A622B6A6AB0067650F /* particle.png */,
+			);
+			path = Particles;
+			sourceTree = "<group>";
+		};
+		5DD9D7FBCA6CA37281F6C711 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				26815E1392F81BACB8A89E0D /* Pods-bangseph.debug.xcconfig */,
+				ABB2ECDED5CB30242D282CAC /* Pods-bangseph.release.xcconfig */,
+				F8272CB8B9B2C2228A0075D2 /* Pods-bangsephTests.debug.xcconfig */,
+				3042C6CB1CA5A77C1F504AD6 /* Pods-bangsephTests.release.xcconfig */,
+				B22F49F919FC7891E707004E /* Pods-bangsephUITests.debug.xcconfig */,
+				247B87CDC7C363F3638630A8 /* Pods-bangsephUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C0F776CF84B89419EFB201A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8BD22437BFD7761D1F98DB22 /* Pods_bangseph.framework */,
+				EEDAFEEA3E2FA2C6762CFF2C /* Pods_bangsephTests.framework */,
+				9C77E16F62D8736345F46BF3 /* Pods_bangsephUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +282,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 233F651F22A1659D003DF079 /* Build configuration list for PBXNativeTarget "bangseph" */;
 			buildPhases = (
+				0B3C16534DD7B060D2964AAC /* [CP] Check Pods Manifest.lock */,
 				233F64F122A1659D003DF079 /* Sources */,
 				233F64F222A1659D003DF079 /* Frameworks */,
 				233F64F322A1659D003DF079 /* Resources */,
+				493F554FAF97CFE209B0A360 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +301,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 233F652222A1659D003DF079 /* Build configuration list for PBXNativeTarget "bangsephTests" */;
 			buildPhases = (
+				1193305C32771C241214D2E4 /* [CP] Check Pods Manifest.lock */,
 				233F650722A1659D003DF079 /* Sources */,
 				233F650822A1659D003DF079 /* Frameworks */,
 				233F650922A1659D003DF079 /* Resources */,
@@ -170,6 +320,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 233F652522A1659D003DF079 /* Build configuration list for PBXNativeTarget "bangsephUITests" */;
 			buildPhases = (
+				067C3289797A7D60381D5E7F /* [CP] Check Pods Manifest.lock */,
 				233F651222A1659D003DF079 /* Sources */,
 				233F651322A1659D003DF079 /* Frameworks */,
 				233F651422A1659D003DF079 /* Resources */,
@@ -232,9 +383,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				231C118622A435D10024588B /* IMG_B8436465A33E-1.jpeg in Resources */,
+				231C118A22A43A1B0024588B /* GoogleService-Info.plist in Resources */,
+				23B8F3A322B6A6A00067650F /* win.mp3 in Resources */,
+				23B8F3A522B6A6A60067650F /* Comic_Andy.ttf in Resources */,
 				233F650522A1659D003DF079 /* LaunchScreen.storyboard in Resources */,
+				231C117E22A421380024588B /* IMG_7201.jpg in Resources */,
+				2364580022B74183008CAD73 /* 스크린샷 2019-06-17 오전 11.59.24.png in Resources */,
 				233F650222A1659D003DF079 /* Assets.xcassets in Resources */,
 				233F650022A1659D003DF079 /* Main.storyboard in Resources */,
+				2364580222B7434C008CAD73 /* ding.mp3 in Resources */,
+				231C118822A437120024588B /* KakaoTalk_Photo_2019-06-03-01-55-32.png in Resources */,
+				23B8F3A722B6A6AB0067650F /* particle.png in Resources */,
+				23B8F3A122B6A6A00067650F /* wrong.m4a in Resources */,
+				234368C122AA56FA000F98E5 /* 서울시 역코드로 지하철역 위치 조회.json in Resources */,
+				23B8F3A922B6AFA80067650F /* KakaoTalk_Photo_2019-06-17-02-10-08.png in Resources */,
+				236457FF22B74183008CAD73 /* 런치스크린.png in Resources */,
+				23B8F3AB22B6B15B0067650F /* KakaoTalk_Photo_2019-06-17-02-17-26.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,13 +419,110 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		067C3289797A7D60381D5E7F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-bangsephUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0B3C16534DD7B060D2964AAC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-bangseph-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1193305C32771C241214D2E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-bangsephTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		493F554FAF97CFE209B0A360 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-bangseph/Pods-bangseph-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-bangseph/Pods-bangseph-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-bangseph/Pods-bangseph-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		233F64F122A1659D003DF079 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23B8F39822B6A6590067650F /* ExplodeView.swift in Sources */,
+				231C118C22A43BBA0024588B /* LoginViewController.swift in Sources */,
 				233F64FD22A1659D003DF079 /* DetailViewController.swift in Sources */,
+				23B8F39922B6A6590067650F /* Config.swift in Sources */,
+				233F652B22A16E70003DF079 /* Candy.swift in Sources */,
+				231C117C22A41FFD0024588B /* TimeTableViewController.swift in Sources */,
 				233F64FB22A1659D003DF079 /* MasterViewController.swift in Sources */,
+				2312AB7A22AC22A900B70346 /* Hospital.swift in Sources */,
+				23B8F38D22B69B0F0067650F /* UpTimeTabelViewController.swift in Sources */,
+				23B8F38F22B69B1F0067650F /* DownTableViewController.swift in Sources */,
+				233F652922A166A9003DF079 /* SearchFooter.swift in Sources */,
+				23B8F39522B6A6590067650F /* StardustView.swift in Sources */,
+				23B8F39722B6A6590067650F /* AudioController.swift in Sources */,
 				233F64F922A1659D003DF079 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -434,8 +696,10 @@
 		};
 		233F652022A1659D003DF079 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26815E1392F81BACB8A89E0D /* Pods-bangseph.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MH2ZJS3XW4;
 				INFOPLIST_FILE = bangseph/Info.plist;
@@ -445,15 +709,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = kr.ac.kpu.bangseph;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		233F652122A1659D003DF079 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABB2ECDED5CB30242D282CAC /* Pods-bangseph.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MH2ZJS3XW4;
 				INFOPLIST_FILE = bangseph/Info.plist;
@@ -463,13 +729,14 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = kr.ac.kpu.bangseph;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 		233F652322A1659D003DF079 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8272CB8B9B2C2228A0075D2 /* Pods-bangsephTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +758,7 @@
 		};
 		233F652422A1659D003DF079 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3042C6CB1CA5A77C1F504AD6 /* Pods-bangsephTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +780,7 @@
 		};
 		233F652622A1659D003DF079 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B22F49F919FC7891E707004E /* Pods-bangsephUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +801,7 @@
 		};
 		233F652722A1659D003DF079 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 247B87CDC7C363F3638630A8 /* Pods-bangsephUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
