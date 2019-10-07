@@ -8,9 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		231C117C22A41FFD0024588B /* TimeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231C117B22A41FFD0024588B /* TimeTableViewController.swift */; };
-		231C117E22A421380024588B /* IMG_7201.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 231C117D22A421380024588B /* IMG_7201.jpg */; };
-		231C118622A435D10024588B /* IMG_B8436465A33E-1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 231C118522A435D10024588B /* IMG_B8436465A33E-1.jpeg */; };
-		231C118822A437120024588B /* KakaoTalk_Photo_2019-06-03-01-55-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 231C118722A437120024588B /* KakaoTalk_Photo_2019-06-03-01-55-32.png */; };
 		231C118C22A43BBA0024588B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231C118B22A43BBA0024588B /* LoginViewController.swift */; };
 		233F64F922A1659D003DF079 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233F64F822A1659D003DF079 /* AppDelegate.swift */; };
 		233F64FB22A1659D003DF079 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233F64FA22A1659D003DF079 /* MasterViewController.swift */; };
@@ -20,13 +17,16 @@
 		233F650522A1659D003DF079 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 233F650322A1659D003DF079 /* LaunchScreen.storyboard */; };
 		233F651022A1659D003DF079 /* bangsephTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233F650F22A1659D003DF079 /* bangsephTests.swift */; };
 		233F651B22A1659D003DF079 /* bangsephUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233F651A22A1659D003DF079 /* bangsephUITests.swift */; };
-		233F652922A166A9003DF079 /* SearchFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233F652822A166A9003DF079 /* SearchFooter.swift */; };
-		233F652B22A16E70003DF079 /* Candy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233F652A22A16E70003DF079 /* Candy.swift */; };
+		235A8B44234B97DD00F0062B /* SearchFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235A8B42234B97DD00F0062B /* SearchFooter.swift */; };
+		235A8B45234B97DD00F0062B /* Candy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235A8B43234B97DD00F0062B /* Candy.swift */; };
+		235A8B47234B981500F0062B /* Hospital.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235A8B46234B981400F0062B /* Hospital.swift */; };
+		235A8B49234B985100F0062B /* 서울시 역코드로 지하철역 위치 조회.json in Resources */ = {isa = PBXBuildFile; fileRef = 235A8B48234B985100F0062B /* 서울시 역코드로 지하철역 위치 조회.json */; };
+		235A8B4B234B98D200F0062B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 235A8B4A234B98D200F0062B /* GoogleService-Info.plist */; };
+		235A8B4D234B993000F0062B /* IMG_7201.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 235A8B4C234B993000F0062B /* IMG_7201.jpg */; };
+		235A8B4F234B995D00F0062B /* IMG_B8436465A33E-1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 235A8B4E234B995D00F0062B /* IMG_B8436465A33E-1.jpeg */; };
+		235A8B51234B998900F0062B /* KakaoTalk_Photo_2019-06-03-01-55-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 235A8B50234B998900F0062B /* KakaoTalk_Photo_2019-06-03-01-55-32.png */; };
 		236457FF22B74183008CAD73 /* 런치스크린.png in Resources */ = {isa = PBXBuildFile; fileRef = 236457FD22B74183008CAD73 /* 런치스크린.png */; };
 		2364580022B74183008CAD73 /* 스크린샷 2019-06-17 오전 11.59.24.png in Resources */ = {isa = PBXBuildFile; fileRef = 236457FE22B74183008CAD73 /* 스크린샷 2019-06-17 오전 11.59.24.png */; };
-		23781D1922B78F9B001D0211 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 23781D1822B78F9B001D0211 /* GoogleService-Info.plist */; };
-		23781D1B22B78FFE001D0211 /* Hospital.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23781D1A22B78FFE001D0211 /* Hospital.swift */; };
-		23781D1D22B79024001D0211 /* 서울시 역코드로 지하철역 위치 조회.json in Resources */ = {isa = PBXBuildFile; fileRef = 23781D1C22B79024001D0211 /* 서울시 역코드로 지하철역 위치 조회.json */; };
 		23B8F38D22B69B0F0067650F /* UpTimeTabelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B8F38C22B69B0F0067650F /* UpTimeTabelViewController.swift */; };
 		23B8F38F22B69B1F0067650F /* DownTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B8F38E22B69B1F0067650F /* DownTableViewController.swift */; };
 		23B8F39522B6A6590067650F /* StardustView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B8F39022B6A6580067650F /* StardustView.swift */; };
@@ -64,9 +64,6 @@
 
 /* Begin PBXFileReference section */
 		231C117B22A41FFD0024588B /* TimeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTableViewController.swift; sourceTree = "<group>"; };
-		231C117D22A421380024588B /* IMG_7201.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_7201.jpg; path = ../../../Downloads/IMG_7201.jpg; sourceTree = "<group>"; };
-		231C118522A435D10024588B /* IMG_B8436465A33E-1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "IMG_B8436465A33E-1.jpeg"; path = "../../../Downloads/IMG_B8436465A33E-1.jpeg"; sourceTree = "<group>"; };
-		231C118722A437120024588B /* KakaoTalk_Photo_2019-06-03-01-55-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "KakaoTalk_Photo_2019-06-03-01-55-32.png"; path = "../../../Downloads/KakaoTalk_Photo_2019-06-03-01-55-32.png"; sourceTree = "<group>"; };
 		231C118B22A43BBA0024588B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		233F64F522A1659D003DF079 /* bangseph.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bangseph.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		233F64F822A1659D003DF079 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -82,13 +79,16 @@
 		233F651622A1659D003DF079 /* bangsephUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bangsephUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		233F651A22A1659D003DF079 /* bangsephUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bangsephUITests.swift; sourceTree = "<group>"; };
 		233F651C22A1659D003DF079 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		233F652822A166A9003DF079 /* SearchFooter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchFooter.swift; path = ../../../Downloads/CandySearch_4_Starter/CandySearch/SearchFooter.swift; sourceTree = "<group>"; };
-		233F652A22A16E70003DF079 /* Candy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Candy.swift; path = ../../../Downloads/CandySearch_4_Starter/CandySearch/Candy.swift; sourceTree = "<group>"; };
+		235A8B42234B97DD00F0062B /* SearchFooter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchFooter.swift; sourceTree = "<group>"; };
+		235A8B43234B97DD00F0062B /* Candy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Candy.swift; sourceTree = "<group>"; };
+		235A8B46234B981400F0062B /* Hospital.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hospital.swift; sourceTree = "<group>"; };
+		235A8B48234B985100F0062B /* 서울시 역코드로 지하철역 위치 조회.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "서울시 역코드로 지하철역 위치 조회.json"; sourceTree = "<group>"; };
+		235A8B4A234B98D200F0062B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		235A8B4C234B993000F0062B /* IMG_7201.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_7201.jpg; sourceTree = "<group>"; };
+		235A8B4E234B995D00F0062B /* IMG_B8436465A33E-1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "IMG_B8436465A33E-1.jpeg"; sourceTree = "<group>"; };
+		235A8B50234B998900F0062B /* KakaoTalk_Photo_2019-06-03-01-55-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KakaoTalk_Photo_2019-06-03-01-55-32.png"; sourceTree = "<group>"; };
 		236457FD22B74183008CAD73 /* 런치스크린.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "런치스크린.png"; sourceTree = "<group>"; };
 		236457FE22B74183008CAD73 /* 스크린샷 2019-06-17 오전 11.59.24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "스크린샷 2019-06-17 오전 11.59.24.png"; sourceTree = "<group>"; };
-		23781D1822B78F9B001D0211 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../X CODE/GoogleService-Info.plist"; sourceTree = "<group>"; };
-		23781D1A22B78FFE001D0211 /* Hospital.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Hospital.swift; path = "../../X CODE/Hospital.swift"; sourceTree = "<group>"; };
-		23781D1C22B79024001D0211 /* 서울시 역코드로 지하철역 위치 조회.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "서울시 역코드로 지하철역 위치 조회.json"; path = "../../X CODE/서울시 역코드로 지하철역 위치 조회.json"; sourceTree = "<group>"; };
 		23B8F38C22B69B0F0067650F /* UpTimeTabelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpTimeTabelViewController.swift; sourceTree = "<group>"; };
 		23B8F38E22B69B1F0067650F /* DownTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownTableViewController.swift; sourceTree = "<group>"; };
 		23B8F39022B6A6580067650F /* StardustView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StardustView.swift; sourceTree = "<group>"; };
@@ -169,24 +169,24 @@
 				23B8F39A22B6A6620067650F /* Assets */,
 				233F64F822A1659D003DF079 /* AppDelegate.swift */,
 				233F64FA22A1659D003DF079 /* MasterViewController.swift */,
-				23781D1A22B78FFE001D0211 /* Hospital.swift */,
 				233F64FC22A1659D003DF079 /* DetailViewController.swift */,
 				233F64FE22A1659D003DF079 /* Main.storyboard */,
 				23B8F3A822B6AFA70067650F /* KakaoTalk_Photo_2019-06-17-02-10-08.png */,
+				235A8B43234B97DD00F0062B /* Candy.swift */,
+				235A8B42234B97DD00F0062B /* SearchFooter.swift */,
 				23B8F3AA22B6B15B0067650F /* KakaoTalk_Photo_2019-06-17-02-17-26.png */,
-				23781D1C22B79024001D0211 /* 서울시 역코드로 지하철역 위치 조회.json */,
+				235A8B48234B985100F0062B /* 서울시 역코드로 지하철역 위치 조회.json */,
 				236457FD22B74183008CAD73 /* 런치스크린.png */,
-				23781D1822B78F9B001D0211 /* GoogleService-Info.plist */,
 				236457FE22B74183008CAD73 /* 스크린샷 2019-06-17 오전 11.59.24.png */,
-				233F652822A166A9003DF079 /* SearchFooter.swift */,
-				233F652A22A16E70003DF079 /* Candy.swift */,
 				233F650122A1659D003DF079 /* Assets.xcassets */,
-				231C117D22A421380024588B /* IMG_7201.jpg */,
 				233F650322A1659D003DF079 /* LaunchScreen.storyboard */,
+				235A8B46234B981400F0062B /* Hospital.swift */,
 				233F650622A1659D003DF079 /* Info.plist */,
-				231C118722A437120024588B /* KakaoTalk_Photo_2019-06-03-01-55-32.png */,
+				235A8B4E234B995D00F0062B /* IMG_B8436465A33E-1.jpeg */,
+				235A8B4C234B993000F0062B /* IMG_7201.jpg */,
+				235A8B50234B998900F0062B /* KakaoTalk_Photo_2019-06-03-01-55-32.png */,
 				231C117B22A41FFD0024588B /* TimeTableViewController.swift */,
-				231C118522A435D10024588B /* IMG_B8436465A33E-1.jpeg */,
+				235A8B4A234B98D200F0062B /* GoogleService-Info.plist */,
 				231C118B22A43BBA0024588B /* LoginViewController.swift */,
 				23B8F38C22B69B0F0067650F /* UpTimeTabelViewController.swift */,
 				23B8F38E22B69B1F0067650F /* DownTableViewController.swift */,
@@ -383,19 +383,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				231C118622A435D10024588B /* IMG_B8436465A33E-1.jpeg in Resources */,
 				23B8F3A322B6A6A00067650F /* win.mp3 in Resources */,
 				23B8F3A522B6A6A60067650F /* Comic_Andy.ttf in Resources */,
 				233F650522A1659D003DF079 /* LaunchScreen.storyboard in Resources */,
-				231C117E22A421380024588B /* IMG_7201.jpg in Resources */,
 				2364580022B74183008CAD73 /* 스크린샷 2019-06-17 오전 11.59.24.png in Resources */,
-				23781D1D22B79024001D0211 /* 서울시 역코드로 지하철역 위치 조회.json in Resources */,
+				235A8B49234B985100F0062B /* 서울시 역코드로 지하철역 위치 조회.json in Resources */,
 				233F650222A1659D003DF079 /* Assets.xcassets in Resources */,
+				235A8B4D234B993000F0062B /* IMG_7201.jpg in Resources */,
 				23B8F3A222B6A6A00067650F /* ding.mp3 in Resources */,
+				235A8B51234B998900F0062B /* KakaoTalk_Photo_2019-06-03-01-55-32.png in Resources */,
 				233F650022A1659D003DF079 /* Main.storyboard in Resources */,
-				231C118822A437120024588B /* KakaoTalk_Photo_2019-06-03-01-55-32.png in Resources */,
-				23781D1922B78F9B001D0211 /* GoogleService-Info.plist in Resources */,
 				23B8F3A722B6A6AB0067650F /* particle.png in Resources */,
+				235A8B4F234B995D00F0062B /* IMG_B8436465A33E-1.jpeg in Resources */,
+				235A8B4B234B98D200F0062B /* GoogleService-Info.plist in Resources */,
 				23B8F3A122B6A6A00067650F /* wrong.m4a in Resources */,
 				23B8F3A922B6AFA80067650F /* KakaoTalk_Photo_2019-06-17-02-10-08.png in Resources */,
 				236457FF22B74183008CAD73 /* 런치스크린.png in Resources */,
@@ -511,18 +511,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				23B8F39822B6A6590067650F /* ExplodeView.swift in Sources */,
+				235A8B45234B97DD00F0062B /* Candy.swift in Sources */,
 				231C118C22A43BBA0024588B /* LoginViewController.swift in Sources */,
 				233F64FD22A1659D003DF079 /* DetailViewController.swift in Sources */,
 				23B8F39922B6A6590067650F /* Config.swift in Sources */,
-				233F652B22A16E70003DF079 /* Candy.swift in Sources */,
 				231C117C22A41FFD0024588B /* TimeTableViewController.swift in Sources */,
 				233F64FB22A1659D003DF079 /* MasterViewController.swift in Sources */,
-				23781D1B22B78FFE001D0211 /* Hospital.swift in Sources */,
+				235A8B47234B981500F0062B /* Hospital.swift in Sources */,
 				23B8F38D22B69B0F0067650F /* UpTimeTabelViewController.swift in Sources */,
 				23B8F38F22B69B1F0067650F /* DownTableViewController.swift in Sources */,
-				233F652922A166A9003DF079 /* SearchFooter.swift in Sources */,
 				23B8F39522B6A6590067650F /* StardustView.swift in Sources */,
 				23B8F39722B6A6590067650F /* AudioController.swift in Sources */,
+				235A8B44234B97DD00F0062B /* SearchFooter.swift in Sources */,
 				233F64F922A1659D003DF079 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
