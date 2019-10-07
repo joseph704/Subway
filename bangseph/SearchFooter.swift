@@ -22,6 +22,8 @@
 
 import UIKit
 
+
+
 class SearchFooter: UIView {
   
   let label: UILabel = UILabel()
